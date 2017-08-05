@@ -21,15 +21,15 @@
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
+    "react-dom": "^15.6.1",
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
+  },
+  "devDependencies": {
     "nodemon": "^1.11.0"
   }
 }
