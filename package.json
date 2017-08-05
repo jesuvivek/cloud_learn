@@ -26,11 +26,12 @@
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0"
   },
   "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
     "nodemon": "^1.11.0"
   }
 }
