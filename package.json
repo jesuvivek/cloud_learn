@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -t [ babelify --presets [ es2015 react ] ] src/client/index.js -o public/js/main.js",
+    "postinstall": "browserify -t [ babelify --presets [ es2015 react ] ] src/client/index.js -o public/js/main.js",
     "start": "node index.js"
   },
   "keywords": [],
