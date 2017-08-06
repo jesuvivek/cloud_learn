@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "browserify -t [ babelify --presets [ es2015 react ] ] src/client/index.js -o public/js/main.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "watchify -t [ babelify --presets [ es2015 react ] ] src/client/index.js -o public/js/main.js -v",
+    "dev": "npm run watch & nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +34,7 @@
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "watchify": "^3.9.0"
   }
 }
